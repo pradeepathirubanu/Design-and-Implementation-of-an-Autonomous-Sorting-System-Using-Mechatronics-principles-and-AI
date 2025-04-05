@@ -53,16 +53,6 @@ Sensors: Validate attributes (size, color, shape).
 Robotic Arm 2 / Pneumatic Actuator: Sorts objects into appropriate bins.
 
 
-Block Diagram
-[Dumping Zone]
-↓
-[Primary Conveyor] → [AI Camera + ML Model] → [Robotic Arm 1] → [Secondary Conveyor]
-                   ↓
-[IR/Color/Ultrasonic Sensors] → [Embedded Controller] → [Robotic Arm 2 / Pneumatic Actuator]
-                   ↓
-[Sorted Bins]
-
-
 Goals
 Minimize manual intervention
 
